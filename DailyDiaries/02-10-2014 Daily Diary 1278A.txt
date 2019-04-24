@@ -1,0 +1,160 @@
+
+
+DAILY DIARY
+
+DATE:
+
+Thursday, October  02, 2014
+
+No :                                                                   1278A
+Client
+SPX/ DB Thermal
+
+Contract No :                     BR000-001
+Weather
+Sunny
+Construction & Progress
+Project
+Kusile ACC
+Temperature
+Hot                                         Beneficial Access Received                                                                                                                                           Beneficial Access Received
+Date 
+Date 
+Contract Period                                                Max Wind speed                                                   Rainfall                                                                      Hours Worked :                                     10
+Preliminary  & General
+Unit:
+Requested
+Date Recevied
+Unit:
+Requested                                                  Date Recevied
+Cranes                    QTY              Transport                     QTY                  Tools & Equipment              QTY
+Gottwald 850T                          1         Horse & Trailer                        5               Office Units (12m)                          19
+Sany 630T/750T                       2         LDV                                         27              Store container (12m)                    22
+Demag Crawler 600T               1         Boswain Chair                         5               Store/Office container (6m)             9
+210 t Crane CR5-001               1         Bus 32 Seater                          0               FSM office (14m)                             1
+Area 3.3 and Area 5 at ACC
+Access for Supports ELB1, S1 & S3
+Access for TCT Tank
+50% Access Unit 1
+Access for Support S2
+18/11/2011
+18/04/2012
+18/04/2012
+18/05/2012
+18/05/2012
+Faun 40T/70T/400T                  3         Bus 16 Seater                          1               Clocking Stations                             4
+Material (Free Issue)
+Date 
+
+Description/Correspondence Ref :
+Change Variation  Instruction  (CVI)
+220 Ton grove                          1         Bus 65 Seater                          9               Ablution Block 12m                         3
+Required    Date Recevied                                                                                                                                                                                                Date Requested
+Remarks
+Zoomlion 70T/260T                  2         Watertruck                               1               Ablution Block 6m                           1
+Sany 100T/150T                       2         Diesel bowser                          2               Store Container 6m                         4
+Tadano 50T                              1         Water bowser                          1               Beam clamps                                  17
+American Crawler 45T             1         Tractors                                   4               Electrode baking oven                    6
+Tadano 35T                              1         Trailers                                     8               Electrode holding box                    30
+Tadano 25T                              4         Dollies                                      7               Diesel Generators                            8
+Silva cranes 30T/ 50T              3         Lowbeds                                  2               220V Welding Inverters                   8
+Liebherr 160T(Marlboro)          1         Generator                                 8               250V Welding Inverters                  10
+
+American Crawler 150T           1         Bobcat                                                   1  380V Welding Inverters                  33
+
+Sarens 70 T/ 160 T                  2                                                                           Chain Blocks                                   51
+
+Tubular Daily Progress                                                                                     Work Delays
+
+ACC UNIT 1
+
+Working  on punchlist  items unit 1 - ongoing                                                                                   Cleaning  of tube bundle w-plates  & nozzles.  Awaiting  approval of cost & time
+
+Mobile forklift                            4                                                                           Magnetic Base Drills                       7
+
+Clean and repair CCM nozzles on street 5 for MPI
+
+14       Modification of square to round (101) at turbine hall due to misalignment
+
+Teleporter 3.5T/6T Dieci          2                                                                           DB Boards                                      17
+
+Cherry pickers                         13                                                                          Security Guards                              31
+
+
+
+Work planned for following  day
+
+Description of Work
+
+Bolt change out on unit 1
+
+Align Tube bundles
+
+W elding of tube bundles on 65m level
+
+Clean and repair TSH on street 2 - ongoing
+
+Install CCM support  brackets  on street 6 and 7
+
+Align and Install seismic bracing to 65m - ongoing
+
+Welding  305/306  -03 external joints on street 7 and 8 - ongoing
+
+Aligning  crawler beams on street 4 & 5 - ongoing
+
+Fit up, tack and weld piping at turbine hall - ongoing
+
+Aligning   and tack CCM brackets  - ongoing
+
+Welding  vacuum  pipe supports  on street 7
+
+Install channels  for partition wall
+
+103 - Left Horizontal  request for MPI in-progress
+
+Welding  windows  on street 5
+
+13       Delay on delivery of free issue 100% pump and 200% pump
+14       Delay on installing BRV10 piping ,awaiting for T.Q response from SPX
+
+
+13
+
+15
+
+17
+
+14
+
+17
+
+8
+
+17
+
+13
+Housekeeping on 65m level
+
+Deliveries
+
+Remistar Night Shift
+7                                  See Material Control Delivery report
+
+Install hanger rods and reem cliets on street 4
+
+Night Shift                                                              14
+
+Welding  circular joints on 116 - Distribution Manifold  Right                                                18
+Welding  on stifner plate and prepare  for MPI
+18      General
+
+Compaction concern for the new laydown  3 area
+
+
+Alstom:                                                                                                                                                                     Jan Kruger(Sign):
+
+Senior Construction Manager
+Date :
+3-Oct-14
+SPX DB Thermal Site Manager
+Date :            3-Oct-14

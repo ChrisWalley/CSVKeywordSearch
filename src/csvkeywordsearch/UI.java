@@ -14,7 +14,7 @@ import javax.swing.JOptionPane;
  */
 public class UI extends javax.swing.JFrame
   {
-    private int type = 1;
+    private int type = 2;
     private static String folder = "DailyDiaries";
 
     /**
@@ -43,6 +43,7 @@ public class UI extends javax.swing.JFrame
         lblHeading = new javax.swing.JLabel();
         btnStart = new javax.swing.JButton();
         btnClear = new javax.swing.JButton();
+        btnTXT = new javax.swing.JRadioButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
@@ -58,7 +59,6 @@ public class UI extends javax.swing.JFrame
             }
         });
 
-        btnCSV.setSelected(true);
         btnCSV.setText(".csv");
         btnCSV.addActionListener(new java.awt.event.ActionListener()
         {
@@ -95,6 +95,16 @@ public class UI extends javax.swing.JFrame
             }
         });
 
+        btnTXT.setSelected(true);
+        btnTXT.setText(".txt");
+        btnTXT.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
+                btnTXTActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout pnlBackgroundLayout = new javax.swing.GroupLayout(pnlBackground);
         pnlBackground.setLayout(pnlBackgroundLayout);
         pnlBackgroundLayout.setHorizontalGroup(
@@ -109,7 +119,8 @@ public class UI extends javax.swing.JFrame
                             .addComponent(btnStart)
                             .addComponent(btnXLSX)
                             .addComponent(btnCSV)
-                            .addComponent(btnClear)))
+                            .addComponent(btnClear)
+                            .addComponent(btnTXT)))
                     .addComponent(lblHeading))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -124,6 +135,8 @@ public class UI extends javax.swing.JFrame
                         .addComponent(btnXLSX)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(btnCSV)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnTXT)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnClear)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -167,6 +180,7 @@ public class UI extends javax.swing.JFrame
     {//GEN-HEADEREND:event_btnXLSXActionPerformed
         type = 0;
         btnCSV.setSelected(false);
+        btnTXT.setSelected(false);
     }//GEN-LAST:event_btnXLSXActionPerformed
 
     private void btnStartActionPerformed(java.awt.event.ActionEvent evt)//GEN-FIRST:event_btnStartActionPerformed
@@ -181,6 +195,7 @@ public class UI extends javax.swing.JFrame
     {//GEN-HEADEREND:event_btnCSVActionPerformed
         type = 1;
         btnXLSX.setSelected(false);
+        btnTXT.setSelected(false);
     }//GEN-LAST:event_btnCSVActionPerformed
 
     private void btnClearActionPerformed(java.awt.event.ActionEvent evt)//GEN-FIRST:event_btnClearActionPerformed
@@ -196,6 +211,13 @@ public class UI extends javax.swing.JFrame
             folder = g;
           }
     }//GEN-LAST:event_jMenuItem1ActionPerformed
+
+    private void btnTXTActionPerformed(java.awt.event.ActionEvent evt)//GEN-FIRST:event_btnTXTActionPerformed
+    {//GEN-HEADEREND:event_btnTXTActionPerformed
+        type = 2;
+        btnXLSX.setSelected(false);
+        btnCSV.setSelected(false);// TODO add your handling code here:
+    }//GEN-LAST:event_btnTXTActionPerformed
 
     
     private String [] getKeys()
@@ -256,6 +278,7 @@ public class UI extends javax.swing.JFrame
     private javax.swing.JRadioButton btnCSV;
     private javax.swing.JButton btnClear;
     private javax.swing.JButton btnStart;
+    private javax.swing.JRadioButton btnTXT;
     private javax.swing.JRadioButton btnXLSX;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenuBar jMenuBar1;

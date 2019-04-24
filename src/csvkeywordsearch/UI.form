@@ -71,6 +71,7 @@
                               <Component id="btnXLSX" alignment="0" min="-2" max="-2" attributes="0"/>
                               <Component id="btnCSV" min="-2" max="-2" attributes="0"/>
                               <Component id="btnClear" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnTXT" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Component id="lblHeading" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -90,6 +91,8 @@
                           <Component id="btnXLSX" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="btnCSV" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="btnTXT" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                           <Component id="btnClear" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
@@ -113,7 +116,6 @@
         </Component>
         <Component class="javax.swing.JRadioButton" name="btnCSV">
           <Properties>
-            <Property name="selected" type="boolean" value="true"/>
             <Property name="text" type="java.lang.String" value=".csv"/>
           </Properties>
           <Events>
@@ -160,6 +162,15 @@
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnClearActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="btnTXT">
+          <Properties>
+            <Property name="selected" type="boolean" value="true"/>
+            <Property name="text" type="java.lang.String" value=".txt"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTXTActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
