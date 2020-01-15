@@ -1,1 +1,2 @@
-dir /b /s
+cd %1
+dir /b
