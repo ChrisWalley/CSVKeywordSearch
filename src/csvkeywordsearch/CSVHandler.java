@@ -19,67 +19,95 @@ import java.util.logging.Logger;
 public class CSVHandler
   {
 
-    public String[][] readSpreadsheets(String[] fileNames, String[] keyWords, String folder)
+    public int[][] readSpreadsheets(String[] keyWords, ArrayList<File> files, String ext)
       {
-
-        ArrayList<String[]> test = new ArrayList<>();
-        //String[][] results = new String[fileNames.length][keyWords.length+1];//[sheets are column 1] [keywords hit fill rest of row, columns 2+]
-
-        int maxDepth = 0;
-
-        for (int loop = 0; loop < fileNames.length; loop++)
+        int[][] test = null;
+        try
           {
-            ArrayList<String> res = new ArrayList<>();
-            String fileName = fileNames[loop];
-            res.add(fileName);
-            boolean hit = false;
-            int keywordHit = 0;
-            for (int wordLoop = 0; wordLoop < keyWords.length; wordLoop++)
+            test = search(files, ext, keyWords);
+
+          } catch (FileNotFoundException ex)
+          {
+            Logger.getLogger(CSVHandler.class.getName()).log(Level.SEVERE, null, ex);
+          }
+        return test;
+      }
+
+    public ArrayList<File> getFiles(File folder, String ext)
+      {
+        ArrayList<File> filesList = new ArrayList<>();
+        if (folder.isDirectory())
+          {
+            File[] files = folder.listFiles();
+            for (File f : files)
               {
-
-                try
+                if (f.isDirectory())
                   {
-                    Scanner scFile = new Scanner(new File(folder+"/" + fileName));
-                    while (scFile.hasNextLine())
+                    filesList.addAll(getFiles(f, ext));
+                  } else
+                  {
+                    String n = f.getName();
+                    if (!n.contains("."))
                       {
-                        String line = scFile.nextLine().toLowerCase();
+                        System.out.println(n);
+                      } else if (n.substring(n.lastIndexOf("."), n.length()).equals(ext))
+                      {
+                        filesList.add(f);
+                      }
+                  }
+              }
+          } else
+          {
+            filesList.add(folder);
+          }
+        return filesList;
+      }
 
-                        if (line.contains(keyWords[wordLoop]))
-                          {/*
-                            if (results[numFound][0] == null)
-                              {
-                                results[numFound][0] = fileName;
-                              }*/
-                            //results[numFound][keywordHit + 1] = keyWords[wordLoop];
-                            res.add(keyWords[wordLoop]);
-                              System.out.println("Found keyword " + keyWords[wordLoop] + " in file "+ fileName);
-                            keywordHit++;
-                            if (!hit)
-                              {
-                                hit = !hit;
-                              }
+    private int[][] search(ArrayList<File> files, String ext, String[] keyWords) throws FileNotFoundException
+      {
+        int[][] keysByFiles = new int[files.size()][keyWords.length];
+        if (ext.equals(".csv"))
+          {
+            for (int fileLoop = 0; fileLoop < files.size(); fileLoop++)
+              {
+                File f = files.get(fileLoop);
+                for (int stringLoop = 0; stringLoop < keyWords.length; stringLoop++)
+                  {
+                    int count = 0;
+                    String word = keyWords[stringLoop];
+                    Scanner scFile = new Scanner(f);
+
+                    while (scFile.hasNext())
+                      {
+                        String line = scFile.nextLine();
+                        if (line.contains(word))
+                          {
+                            count++;
                           }
                       }
+                    keysByFiles[fileLoop][stringLoop] = count;
                     scFile.close();
-                  } catch (NumberFormatException e)
-                  {
-                    System.out.println(e);
-                  } catch (FileNotFoundException ex)
-                  {
-                    Logger.getLogger(CSVHandler.class.getName()).log(Level.SEVERE, null, ex);
                   }
+
               }
-            if (hit)
+
+          } else if (ext.equals(".xlsx"))
+          {
+            for (int fileLoop = 0; fileLoop < files.size(); fileLoop++)
               {
-                test.add(res.toArray(new String[0]));
-                if(keywordHit > maxDepth)
+                File f = files.get(fileLoop);
+                for (int stringLoop = 0; stringLoop <= keyWords.length; stringLoop++)
                   {
-                    maxDepth = keywordHit;
+                    int count = 0;
+                    String word = keyWords[stringLoop];
+                    
+                    //Find word
+                    
+                    keysByFiles[fileLoop][stringLoop] = count;
                   }
+
               }
           }
-
-        CSVKeywordSearch.setMaxDepth(maxDepth);
-        return test.toArray(new String[0][0]);
+        return keysByFiles;
       }
   }
