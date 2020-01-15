@@ -58,6 +58,7 @@ public class CSVHandler
                               {
                                 hit = !hit;
                               }
+                            break;
                           }
                       }
                     scFile.close();

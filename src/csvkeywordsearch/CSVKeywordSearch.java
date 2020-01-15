@@ -27,6 +27,7 @@ public class CSVKeywordSearch
     private static int numFound = 0;
     private static final int XLSX = 0;
     private static final int CSV = 1;
+    private static final int TXT = 2;
     private static CSVHandler H = new CSVHandler();
     private static int maxDepth;
 
@@ -82,6 +83,9 @@ public class CSVKeywordSearch
                 break;
             case CSV:
                 extension = ".csv";
+                break;
+            case TXT:
+                extension = ".txt";
                 break;
             default:
                 extension = ".csv";

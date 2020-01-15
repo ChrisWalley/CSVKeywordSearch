@@ -1,0 +1,190 @@
+DAILY DIARY
+
+DATE:
+
+Friday, October 03, 2014
+
+No :                                                           1279B
+Client
+
+SPX/ DB Thermal
+
+Contract No :                     BR000-001
+
+W eather
+
+Sunny
+Construction  & Progress
+Project
+Kusile ACC
+Temperature
+Cool                                       Beneficial Access  Received                                                                                                                       Beneficial Access  Received
+Date 
+Date 
+Contract Period                                              Max W ind speed                                                 Rainfall
+4mm
+Hours W orked :                                  10
+Preliminary  & General
+Unit:
+Requested
+Date Recevied
+Unit:
+Requested                                          Date Recevied
+Cranes                   QTY              Transport                  QTY                Tools & Equipment             QTY
+Gottwald 850T                         1        Horse & Trailer                      5             Office Units (12m)                         19
+Sany 630T/750T                      2        LDV                                      27            Store container (12m)                   22
+Demag Crawler 600T              1        Boswain Chair                       5             Store/Office container (6m)            9
+210 t Crane CR5-001              1        Bus 32 Seater                       0             FSM office (14m)                           1
+Area 3.3 and Area 5 at ACC
+Access for Supports ELB1, S1 & S3
+Access for TCT Tank
+50% Access Unit 2
+Access for Support S2
+18/11/2011
+18/04/2012
+18/04/2012
+18/05/2012
+18/05/2012
+Faun 40T/70T/400T                3        Bus 16 Seater                       1             Clocking Stations                           4
+Material (Free Issue)
+Date 
+
+Description/Correspondence Ref :
+Change Variation Instruction (CVI)
+220 Ton grove                         1        Bus 65 Seater                       9             Ablution Block 12m                        3
+Required   Date Recevied                                                                                                                                                                Date Requested
+Remarks
+Zoomlion 70T/260T                 2        W atertruck                            1             Ablution Block 6m                          1
+Sany 100T/150T                      2        Diesel bowser                       2             Store Container 6m                        4
+Tadano 50T                             1        W ater bowser                       1             Beam clamps                                17
+American Crawler 45T            1        Tractors                                 4             Electrode baking oven                    6
+Tadano 35T                             1        Trailers                                  8             Electrode holding box                   30
+Tadano 25T                             4        Dollies                                   7             Diesel Generators                          8
+Silva cranes 30T/ 50T             3        Lowbeds                                2             220V W elding Inverters                  8
+Liebherr 160T(Marlboro)         1        Generator                              8             250V W elding Inverters                 10
+Daily Progress                                                                                                                                      Work Delays
+American Crawler 150T          1        Bobcat                                              1 380V W elding Inverters                 33
+
+Sarens 70 T/ 160 T                 2                                                                      Chain Blocks                                 51
+ACC UNIT 2
+
+Welding 303/304 TSH internal joints
+Auxiliary Building for ACCCT available - Due 17-06-2013
+Joint / shared access with productivity impacts on Steam Duct. Concrete supports S1
+13        & S3 - due 07-02-2013
+
+Mobile forklift                           4                                                                      Magnetic Base Drills                      7
+
+Fettling on 112 - Left Elbow
+
+18        Turbine not available for welding - due 07-06-2014
+Teleporter 3.5T/6T
+Dieci                                        2                                                                      DB Boards                                     17
+
+Cherry pickers                        13                                                                     Security Guards                            31
+
+Assembling 115 - Left Elbow - ongoing
+
+111 - Right Vertical - welding in progress
+
+Welding on tube bundles on street 2 and 5 - ongoing
+
+18        Delay on installing MAJ pipes ,awaiting for Site Instruction from SPX
+
+18        Started to rain at 16:21 rain measured 4mm
+
+15        Night Shift started at 23:00 due to rain fall and wet scaffold and steel work
+
+Sany 630T/750T                      2
+
+
+
+
+Prep joints on MED
+
+W elding of lifting lugs
+
+W elding of joints on MED Lifting of modules
+Align and weld tube bundles
+
+
+Work planned for following day
+
+Description of Work
+
+Pre-assembling of windwall
+
+Bolt and torque of module panel grid A6,A7,A8 L28
+
+Drilling holes for anchor bolts on s3 support
+Grind and prepare seismic plate for welding TSH 304/305 street 5 - ongoing
+
+Align and tack 305/306 TSH 50 % on street 4
+
+Lift and install 2 pairs of tube bundles on street 6
+Assembling of fan bridges at LD3, install grating, torque bolts and install gearbox and motors in progress - ongoing
+
+Tack and weld LHS CCM pipes on street 6 - ongoing
+
+Remove panel off jigs panel grid A7,A8,A9 L28
+
+Welding Bottom Elbow
+
+7
+
+1
+
+17
+
+13
+
+13
+
+15
+
+11.1
+
+14
+
+1
+
+17
+
+
+
+
+
+
+
+
+
+Deliveries
+
+See Material Control Delivery report
+
+Housekepping
+
+NIGHT SHIFT                                   9
+
+Pre-assembling and pairing of 2 pairs of tube bundles
+Install tube bundles on jig for pairing and install crawler beam
+Remove cover sheet on tube bundles and grind top plate
+
+15      General
+15      Compaction concern for the new laydown 3 area
+15
+
+
+
+
+
+
+
+Alstom:
+Jan Kruger(Sign):
+
+Senior Construction  Manager
+Date :
+6-Oct-14
+SPX DB Thermal Site Manager
+Date :           6-Oct-14
